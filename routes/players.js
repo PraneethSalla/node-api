@@ -4,7 +4,6 @@ const router = express.Router();
 const Player = require("../models/playerModel");
 const mongoose = require('mongoose')
 
-
 // POST a new player
 router.post("/", async (req, res) => {
 const { name, number, position } = req.body;

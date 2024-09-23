@@ -6,6 +6,5 @@ const playerSchema = new Schema({
   number: { type: Number, required: true },
   position: { type: String, required: true },
 });
-
 module.exports = mongoose.model('Player', playerSchema);
 

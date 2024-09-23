@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
     // res.send('GET request received!');
     res.status(200).json(players)
 })
-
+ 
 // POST a new player
 router.post('/', async (req, res) => {
     const{name, number, position} = req.body
