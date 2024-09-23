@@ -4,6 +4,7 @@ const Player = require('../models/playerModel')
 const mongoose = require('mongoose')
 
 
+
 // GET all players
 router.get('/', async (req, res) => {
     const players = await Player.find()
